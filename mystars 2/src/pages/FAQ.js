@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-class Pg3 extends Component {
+class FAQ extends Component {
   render() {
     return (
       <section>
@@ -11,4 +11,4 @@ class Pg3 extends Component {
   }
 }
 
-export default Pg3;
+export default FAQ;
