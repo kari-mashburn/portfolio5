@@ -2,13 +2,22 @@ import React, { Component } from 'react';
 import '../App.css';
 class Form extends Component {
     state = {
-      data: []
+      data: [],
+      shown: true
     };
 
-    componentDidMount() {
-
-    }
-  renderStuff = ()=>{
+  componentDidMount() {
+    const URL = 'https://aztro.sameerkumar.website/?sign=aries&day=today';
+    fetch(URL, {
+        method: 'POST'
+      }).then(data => data.json())
+      .then(data => {
+        this.setState({
+          data
+        });
+      });
+  }
+ renderStuff = () => {
       const sign = document.getElementById("signs").value;
       const date = document.getElementById("date").value;
       const URL = `https://aztro.sameerkumar.website/?sign=${sign}&day=${date}`;
@@ -44,13 +53,27 @@ class Form extends Component {
       }
   }
 
-  showContent = () =>{
-    
+   showContent = () =>{
+    let form = document.getElementsByClassName("form-style-8");
+    if(form.style.display == 'none'){
+      form.style.display == "block";
+    }else{
+      form.style.display = "none";
+    }
+  }
+  toggle= (e) =>{
+    e.preventDefault();
+    this.setState({
+      shown: !this.state.shown
+    });
   }
   render() {
+    let shown = {display: this.state.shown ? "block": "none"};
+    let hidden = {display: this.state.shown ? 'none': "block"};
+
     return (
       <div class="form-style-8">
-        <form>
+        <form style={shown}>
           <legend>Please fill out the following to find your horoscope:</legend>
           <label for="fname">First Name:</label>
           <input type="text" name="fname" id="fname" required/>
@@ -81,8 +104,19 @@ class Form extends Component {
             <input type="checkbox" name="time" id="time" value="Time"/>Lucky Time
             <input type="checkbox" name="number" id="number" value="Number"/>Lucky Number 
           </div>
-          <input type="submit" id="submitBtn" onClick={this.showContent}/>
+          <input type="submit" id="submitBtn" onClick={this.toggle.bind(this)}/>
         </form>
+
+      <section style = {hidden}>
+        Current Date: {this.state.data.current_date} <br />
+        Compatibility: {this.state.data.compatibility} <br />
+        Lucky Number: {this.state.data.lucky_number} <br />
+        Lucky Time: {this.state.data.lucky_time} <br />
+        Color: {this.state.data.color} <br />
+        Date Range: {this.state.data.date_range} <br />
+        Mood: {this.state.data.mood} <br />
+        Description: {this.state.data.description} <br />
+    </section>
       </div>
     );
   }
