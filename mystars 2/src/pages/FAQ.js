@@ -5,7 +5,7 @@ class FAQ extends Component {
   render() {
     return (
       <section>
-        Link 3
+      <p>FAQ Stuff Goes Here. Coming Soon</p>
       </section>
     );
   }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import '../App.css';
 class Form extends Component {
     state = {
       data: []
@@ -47,7 +47,7 @@ class Form extends Component {
   
   render() {
     return (
-      <section>
+      <div class="form-style-8">
         <form>
           <legend>Please fill out the following to find your horoscope:</legend>
           <label for="fname">First Name:</label>
@@ -67,7 +67,7 @@ class Form extends Component {
             <option value="scorpio">Scorpio</option>
             <option value="sagittarius">Sagittarius</option>
           </select>
-          <label for="date">Which date would you like to view? Can only view, Today, Tomorrow, or Yesterday</label>
+          <label for="date">Which date would you like to view? Can only view, Today, Tomorrow, or Yesterday?</label>
           <input type="radio" name="date" id="today" required/>Today
           <input type="radio" name="date" id="tomorrow"/>Tomorrow
           <input type="radio" name="date" id="yesterday"/>Yesterday
@@ -81,7 +81,7 @@ class Form extends Component {
           </div>
           <input type="submit" id="submitBtn" onClick={this.renderStuff}/>
         </form>
-      </section>
+      </div>
     );
   }
 }
