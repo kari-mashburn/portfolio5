@@ -44,7 +44,9 @@ class Form extends Component {
       }
   }
 
-  
+  showContent = () =>{
+    
+  }
   render() {
     return (
       <div class="form-style-8">
@@ -79,7 +81,7 @@ class Form extends Component {
             <input type="checkbox" name="time" id="time" value="Time"/>Lucky Time
             <input type="checkbox" name="number" id="number" value="Number"/>Lucky Number 
           </div>
-          <input type="submit" id="submitBtn" onClick={this.renderStuff}/>
+          <input type="submit" id="submitBtn" onClick={this.showContent}/>
         </form>
       </div>
     );
