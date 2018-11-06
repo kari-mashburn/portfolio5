@@ -10,7 +10,7 @@ class Main extends Component {
   render() {
     return (
       <section>
-        <Route exact path='/' component={Home} />
+        <Route exact path='/Home' component={Home} />
         <Route exact path='/Home' component={Home} />
         <Route exact path='/FAQ' component={FAQ} />
 
