@@ -113,7 +113,6 @@ class Form extends Component {
         Lucky Number: {this.state.data.lucky_number} <br />
         Lucky Time: {this.state.data.lucky_time} <br />
         Color: {this.state.data.color} <br />
-        Date Range: {this.state.data.date_range} <br />
         Mood: {this.state.data.mood} <br />
         Description: {this.state.data.description} <br />
     </section>
