@@ -364,15 +364,6 @@ class Form extends Component {
  renderStuff = () => {
       const sign = document.getElementById("signs").value;
       const date = document.getElementById("date").value;
-      const URL = `https://aztro.sameerkumar.website/?sign=${sign}&day=${date}`;
-      fetch(URL, {
-          method: 'POST'
-        }).then(response => response.json())
-        .then(json => {
-          this.setState({
-            data: json
-          });
-        });
       const name = document.getElementById("fname").value;
       const color = document.getElementById("color");
       const mood = document.getElementById("mood");
