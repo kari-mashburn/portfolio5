@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import {NavLink} from 'react-router-dom';
-import {FaHome} from 'react-icons/fa'
-import {FaHandPeace} from 'react-icons/fa'
 
 class Footer extends Component {
   render() {
     return (
-      <footer>
-        <NavLink to="/Home"><FaHome /></NavLink>
-        <NavLink to="/FAQ"><FaHandPeace /></NavLink>   
+      <footer class="footer">
+        <NavLink to="/Home">Home</NavLink>
+        <NavLink to="/FAQ">FAQ</NavLink>
+        <p>&copy;2018 <a href="mailto:kmashburn@student.fullsail.edu" id="email">Kari Mashburn</a></p>   
       </footer>
     );
   }

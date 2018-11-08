@@ -8,7 +8,7 @@ class Header extends Component {
         <header className="myHeader">
           <h3>What's In My Stars?</h3>
         </header>
-        <div>
+        <div className="myContent">
           <p>Horoscope Content</p>
         </div>
           <Nav />
