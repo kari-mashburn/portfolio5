@@ -3,6 +3,7 @@ import {NavLink} from 'react-router-dom';
 
 class Footer extends Component {
   render() {
+    //Footer just has links that are in the nav plus an email me!
     return (
       <footer class="footer">
         <NavLink to="/Home">Home</NavLink>

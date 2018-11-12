@@ -3,13 +3,12 @@ import Nav from './Nav'
 
 class Header extends Component {
   render() {
+    //This is where my banner and my horoscope artwork lies
     return (
       <div>
         <header className="myHeader">
-          <h3>What's In My Stars?</h3>
         </header>
         <div className="myContent">
-          <p>Horoscope Content</p>
         </div>
           <Nav />
       </div>
