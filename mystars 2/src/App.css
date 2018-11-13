@@ -72,7 +72,7 @@ form {
 /* Form inputs for the radio buttons to be next to the value */
 .form-style-8 input[type="radio"]{
     margin: 0px;
-    margin-left: -18px;
+    margin-left: 10px;
     margin-bottom: -30px;
 }
 
@@ -102,6 +102,9 @@ form {
 /* Form Label */
 form label{
     width: 100%;
+}
+.myLabel{
+    padding:35px;
 }
 
 /* Form Buttons on actions */
