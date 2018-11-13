@@ -11,7 +11,7 @@
 /* The banner for the horoscope artwork */
 .myContent {
     height: 75px;
-    width: 80%;
+    width: 85%;
     margin: 10px;
     margin-left: 200px;
     margin-right: 25px;
@@ -22,7 +22,7 @@
 /* The form setting the styles */
 .form-style-8 {
     font-family: 'Open Sans Condensed', arial, sans;
-    width: 55%;
+    width: 50%;
     padding: 30px;
     background-image: linear-gradient(to right, #44008b, #5e1394, #75249d, #8a35a6, #9f45b0);
     color: white;
@@ -67,11 +67,12 @@ form {
     margin-bottom: 10px;
     font: 16px Arial, Helvetica, sans-serif;
     height: 45px;
+
 }
 /* Form inputs for the radio buttons to be next to the value */
 .form-style-8 input[type="radio"]{
     margin: 0px;
-    margin-left: -20px;
+    margin-left: -18px;
     margin-bottom: -30px;
 }
 
@@ -88,9 +89,11 @@ form {
     font-size: 14px;
     padding: 8px 18px;
     margin-top: 10px;
-    margin-left: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
     text-decoration: none;
     text-transform: uppercase;
+    margin: 0.4rem;
 }
 /* Form Label */
 .form-style-8 label {
@@ -111,7 +114,10 @@ form label{
 /* Form Fieldsets */
 .form-style-8 fieldset {
     border-style: none;
-    width: 40%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 h4 {
