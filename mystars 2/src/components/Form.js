@@ -108,7 +108,7 @@ class Form extends Component {
             <label for="date">Which date would you like to view? Can only view, Today, Tomorrow, or Yesterday?</label>
             <input type="radio" name="date" value="yesterday" id="yesterday" onChange={this.changeDate}/> <label class="myLabel" for="yesterday">Yesterday</label>
             <input type="radio" name="date" value="today" id="today" onChange={this.changeDate} required/> <label class="myLabel" for="today">Today</label>
-            <input type="radio" name="date" value="tomorrow" id="tomorrow" onChange={this.changeDate}/><label  for="tomorrow">Tomorrow</label>
+            <input type="radio" name="date" value="tomorrow" id="tomorrow" onChange={this.changeDate}/><label class="myLabel" for="tomorrow">Tomorrow</label>
           </fieldset>
           <fieldset>
             <input type="submit" id="submitBtn" onClick={this.toggle.bind(this)}/>
