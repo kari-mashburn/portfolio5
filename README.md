@@ -23,7 +23,7 @@
 * Project Checkpoint (Zipped Folder)
 * Project Proposals (Zipped Folder)
 * Lofi_wireframe.ai (Wireframe for designs)
-* Screenshots (Folder)
+* Screenshots of What's In My Stars? (Folder)
 
 [Back To Top](#Contents)
 
