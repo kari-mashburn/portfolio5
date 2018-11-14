@@ -4,7 +4,7 @@
 
 ## Contents
 
-* What's in this Repo
+* [What's in this Repo](#Whats-In-This-Repo)
 * Description of What's in My Stars?
 * Demo Link
 * Requirements To Install
