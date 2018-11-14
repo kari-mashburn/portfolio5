@@ -60,7 +60,7 @@
 * ![Home Page]("/screenshots/landingPage.png")
 * ![Horoscope Results]("/screenshots/horoscopeResults.png")
 * ![FAQ Page]("/screenshots/FAQPage.png")
-* ![FAQ Information]("https://github.com/kari-mashburn/portfolio5/blob/master/screenshots/FAQInfo.png")
+* ![FAQ Information]((https://raw.github.com/kari-mashburn/portfolio5/screenshots/FAQInfo.png))
 
 ## Video Walkthrough
 
