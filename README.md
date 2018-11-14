@@ -57,10 +57,10 @@
 
 ## Screenshots
 
-* ![Home Page]("landingPage.png")
-* ![Horoscope Results]("horoscopeResults.png")
-* ![FAQ Page]("FAQPage.png")
-* ![FAQ Information]("FAQInfo.png")
+* ![Home Page]("/screenshots/landingPage.png")
+* ![Horoscope Results]("/screenshots/horoscopeResults.png")
+* ![FAQ Page]("/screenshots/FAQPage.png")
+* ![FAQ Information]("/screenshots/FAQInfo.png")
 
 ## Video Walkthrough
 
