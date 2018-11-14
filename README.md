@@ -57,10 +57,14 @@
 
 ## Screenshots
 
-* ![Home Page]("/screenshots/landingPage.png")
-* ![Horoscope Results]("/screenshots/horoscopeResults.png")
-* ![FAQ Page]("/screenshots/FAQPage.png")
-* ![FAQ Information]((https://raw.github.com/kari-mashburn/portfolio5/screenshots/FAQInfo.png))
+* Landing Page
+  * ![Home Page](/screenshots/landingPage.png)
+* Horoscope Results
+  * ![Horoscope Results](/screenshots/horoscopeResults.png)
+* FAQ Page
+  * ![FAQ Page](/screenshots/FAQPage.png)
+* FAQ Information  
+* ![FAQ Information](/screenshots/FAQInfo.png)
 
 ## Video Walkthrough
 
