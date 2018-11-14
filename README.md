@@ -5,7 +5,7 @@
 ## Contents
 
 * [What's in this Repo](#Whats-In-This-Repo)
-* [Description of What's in My Stars?](#Description-of-What's-in-My-Stars)
+* [Description of What's in My Stars?](#Description-of-What's-in-My-Stars?)
 * [Demo Link](#Demo-Link)
 * [Requirements To Install](#Requirements-To-Install)
 * [How to get Started](#How-to-get-started)
@@ -23,7 +23,7 @@
 * Lofi_wireframe.ai (Wireframe for designs)
 * Screenshots (Folder)
 
-## Description of What's in My Stars
+## Description of What's in My Stars?
 
 * What's in My Stars? is my Portfolio 5 project, using React and a third party API. It is meant for the user to go and look at their horoscope and the ability to view other information that comes with their horoscope reading, such as, your lucky time, lucky number, mood, color for the day, and compatibility with other signs.
 * What's in My Stars? also includes a Frequently Asked Questions page for the users that want a better understanding of astrology and the zodiac.
