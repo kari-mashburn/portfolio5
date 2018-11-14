@@ -5,7 +5,7 @@
 ## Contents
 
 * [What's in this Repo](#Whats-In-This-Repo)
-* [Description of What's in My Stars](#Description-of-What's-in-My-Stars)
+* [Description of What's in My Stars](#description-of-whats-in-my-stars)
 * [Demo Link](#Demo-Link)
 * [Requirements To Install](#Requirements-To-Install)
 * [How to get Started](#How-to-get-started)
