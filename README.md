@@ -64,7 +64,7 @@
 * FAQ Page
   * ![FAQ Page](/screenshots/FAQPage.png)
 * FAQ Information  
-* ![FAQ Information](/screenshots/FAQInfo.png)
+  * ![FAQ Information](/screenshots/FAQInfo.png)
 
 ## Video Walkthrough
 
