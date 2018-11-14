@@ -90,29 +90,32 @@ class Form extends Component {
             <label for="sign">Please Select Your Sign</label>
             <select name="signs" id="signs" onChange={this.changeSign} required>
               <option value=""></option>
-              <option value="capricorn">Capricorn</option>
-              <option value="aquarius">Aquarius</option>
-              <option value="pisces">Pisces</option>
-              <option value="aries">Aries</option>
-              <option value="taurus">Taurus</option>
-              <option valeu="gemini">Gemini</option>
-              <option value="cancer">Cancer</option>
-              <option value="leo">Leo</option>
-              <option value="virgo">Virgo</option>
-              <option value="libra">Libra</option>
-              <option value="scorpio">Scorpio</option>
-              <option value="sagittarius">Sagittarius</option>
+              <option value="Capricorn">Capricorn</option>
+              <option value="Aquarius">Aquarius</option>
+              <option value="Pisces">Pisces</option>
+              <option value="Aries">Aries</option>
+              <option value="Taurus">Taurus</option>
+              <option valeu="Gemini">Gemini</option>
+              <option value="Cancer">Cancer</option>
+              <option value="Leo">Leo</option>
+              <option value="Virgo">Virgo</option>
+              <option value="Libra">Libra</option>
+              <option value="Scorpio">Scorpio</option>
+              <option value="Sagittarius">Sagittarius</option>
             </select>
           </fieldset>
           <fieldset>
-            <label for="date">Which date would you like to view? Can only view, Today, Tomorrow, or Yesterday?</label>
-            <input type="radio" name="date" value="yesterday" id="yesterday" onChange={this.changeDate}/> <label class="myLabel" for="yesterday">Yesterday</label>
-            <input type="radio" name="date" value="today" id="today" onChange={this.changeDate} required/> <label class="myLabel" for="today">Today</label>
-            <input type="radio" name="date" value="tomorrow" id="tomorrow" onChange={this.changeDate}/><label class="myLabel" for="tomorrow">Tomorrow</label>
+            <label for="date">Which date would you like to view?</label>
+            <select name="date" id="date" onChange={this.changeDate} required>
+              <option value=""></option>
+              <option value="yesterday">Yesterday</option>
+              <option value="today">Today</option>
+              <option value="tomorrow">Tomorrow</option>
+            </select>
           </fieldset>
           <fieldset>
-            <input type="submit" id="submitBtn" onClick={this.toggle.bind(this)}/>
-            <input type="reset" id="resetBtn" />
+            <input type="submit" class="btn" id="submitBtn" onClick={this.toggle.bind(this)} onSubmit={this.toggle.bind(this)}/>
+            <input type="reset" class="btnx" id="resetBtn" />
             </fieldset>
         </form>
          {/* this is for when the user clicks submit it shows the results */}
@@ -121,12 +124,13 @@ class Form extends Component {
            <p>Description: {this.state.data.description}</p>
           <div class="horoscopeContent">
             <p>Current Date: {this.state.data.current_date}<br />
+            Your Sign: {this.state.sign}<br />
             Your Compatible Sign: {this.state.data.compatibility}<br />
             Your Lucky Number: {this.state.data.lucky_number}<br />
             Your Lucky Time: {this.state.data.lucky_time}<br />
             Your Mood: {this.state.data.mood}<br />
             Your Color: {this.state.data.color}<br />
-            <input type="submit" id="backBtn" value="Go Back" onClick={this.toggle.bind(this)} />
+            <input type="submit" id="backBtn" value="Go Back" onClick={this.toggle.bind(this)} onSubmit={this.toggle.bind(this)} />
             </p>
           </div>
         </div>

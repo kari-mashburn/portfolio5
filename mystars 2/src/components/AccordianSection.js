@@ -26,6 +26,10 @@ class AccordionSection extends Component {
           background: isOpen ? '#44008B' : '#9F45B0',
           border: '1px solid #000761',
           padding: '5px 10px',
+          marginLeft: '25px',
+          marginRight: '25px',
+          fontWeight: 'bold',
+          fontSize: '1em',
         }}>
         {/* Checking if it is opened and how it should look */}
         <div onClick={onClick} style={{ cursor: 'pointer' }}>

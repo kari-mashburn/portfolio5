@@ -34,7 +34,7 @@ class Accordion extends Component {
     } = this;
     //Sets the FAQ page up with how it should look and how it functions
     return (
-      <div style={{ border: '2px solid #000761' }}>
+      <div style={{  }}>
         {children.map(child => (
           <AccordionSection
             isOpen={!!openSections[child.props.label]}
