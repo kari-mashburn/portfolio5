@@ -1,6 +1,8 @@
-# Portfolio 5
+# Project and Portfolio 5
 
-* Term 1811: Web Design and Development Portfolio 5
+* Full Sail University
+* Term 1811 
+* Web Design and Development 
 
 ## Contents
 
