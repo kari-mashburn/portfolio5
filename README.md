@@ -5,15 +5,15 @@
 ## Contents
 
 * [What's in this Repo](#Whats-In-This-Repo)
-* Description of What's in My Stars?
-* Demo Link
-* Requirements To Install
-* How to get Started
-* Requirements for this Project
-* Screenshots
-* Video Walkthrough
-* Problems I encountered
-* Contact
+* [Description of What's in My Stars?](#Description-of-What's-in-My-Stars)
+* [Demo Link](#Demo-Link)
+* [Requirements To Install](#Requirements-To-Install)
+* [How to get Started](#How-to-get-started)
+* [Requirements for this Project](#Requirements-for-this-project)
+* [Screenshots](#Screenshots)
+* [Video Walkthrough](#Video-Walkthrough)
+* [Problems I encountered](#Problems-I-Encountered)
+* [Contact](#Contact)
 
 ## What's In This Repo
 
